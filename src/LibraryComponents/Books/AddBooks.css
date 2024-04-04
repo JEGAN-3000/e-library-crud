@@ -1,0 +1,33 @@
+/* NAME:JEGADHEESWARAN B
+DATE:7/12/23 */
+.BooksDisplayContainer{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    height: 100vh;
+
+}
+table thead th{
+    padding: 10px;
+
+}
+table thead{
+    border-radius: 5px;
+    background-color: teal;
+}
+table tbody td{
+    padding: 50px;
+}
+@media(max-width:768px)
+{
+    table thead th{
+        padding: 2px;
+    
+    }
+    table tbody td{
+        padding: 10px;
+    }
+}
+@media(max-width:600px){
+    
+}

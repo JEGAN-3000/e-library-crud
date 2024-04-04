@@ -1,0 +1,83 @@
+/* NAME:JEGADHEESWARAN B
+DATE:7/12/23 */
+.AdminContactContainer{
+    background: url(../../Assets/BG5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    
+}
+@media(max-width:768px)
+{
+    .AdminContactContainer{
+        background: url(../../Assets/BG5.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        
+    }
+}
+
+.contactContainer{
+    background: rgba(0, 0, 0, 0.7);
+    height: 300px;  
+
+    
+}
+.contactDetails{    
+    display: flex;  
+  
+  
+    width: 500px;
+    height: 100px;
+    flex-wrap: wrap;
+    box-shadow: 0 4 10px black;
+    
+    
+    color: white;       
+    font-size: 24px; 
+    border: 0px;
+   
+}
+.contactContainer> h1{
+    color: teal;
+    font-size: 40px; 
+    text-align: center;
+    padding: 20px;    
+    user-select: none;
+    font-weight: 50;
+
+}
+.contactDetails span{
+    color: teal;
+    font-weight: 10;
+}
+.contactDetails> a{
+    padding-left: 30px;
+    color: white;
+}
+.contactDetails a:hover{
+    background-color: teal;
+    transition-duration: 0.3s;
+}
+.contactDetails a{
+    width: 50px;
+    border-radius: 17px;
+
+
+
+    color: white;
+    font-size: 35px;
+
+}
+
+.contactDetails> h3{
+    padding: 10px;
+    font-weight: 10;
+} 

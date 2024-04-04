@@ -1,0 +1,110 @@
+/* NAME:JEGADHEESWARAN B
+DATE:7/12/23 */
+.RegisterPage{
+    /* background-color: teal; */
+    background: url(../../IMAGES/BG8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+.AdminContainer{
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    max-width: 100%;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+
+}
+.AdminFormContainer{
+    background-color: teal;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.6 ease-in-out;
+}
+
+.AdminFormContent{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+}
+
+.AdminFormContent>h1{
+    margin: 0;
+    color: teal;
+    padding: 10px;
+    font-size: 40px;
+    margin-top: -30px;
+}
+
+.AdminFormContent>input{
+    border: none;
+    text-decoration: none;
+    width: 100%;
+    background-color: #eee;
+    border-bottom: 2px solid teal;
+    margin: 20px 0;
+    padding: 10px 15px;
+    height: 70px;
+    font-size: 30px;
+    outline: none;
+}
+.AdminFormContent>button{
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    cursor: pointer;     
+    margin-top: 20px;
+    border: none;
+    transition: transform 0.8s ease-in-out;   
+}
+.AdminFormContent>button:hover{
+    background-color: rgba(0, 128, 128,0.8);
+}
+.AdminLogoutIcon{
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 200px;
+    color: teal;
+    transition-duration: 0.4s;
+    /* transition: ease-in-out; */
+}
+.AdminLogoutIcon:hover{
+    color: black;
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+.AdminLogoutIcon>a{
+    color: teal;
+}
+.AdminLogoutIcon>a:hover{
+    color: black;   
+    
+}
+
+
+
+
+

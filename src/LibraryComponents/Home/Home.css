@@ -1,0 +1,42 @@
+/* NAME:JEGADHEESWARAN B
+DATE:7/12/23 */
+.AdminHomeContainer{
+    background: url(../../Assets/BG6.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+}
+@media(max-width:768px)
+{
+    .AdminHomeContainer{
+        background: url(../../Assets/BG6.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        
+    }
+}
+.homeContent{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    
+
+}
+.homeContent>h5{
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 50;
+    width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(0, 0, 0, 0.7);
+}

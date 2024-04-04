@@ -1,0 +1,56 @@
+/* NAME:JEGADHEESWARAN B
+DATE:7/12/23 */
+.AdminBooksContainer{
+    background: url(../../Assets/BG2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    width: 100%;    
+    height: 100vh;
+    position: sticky; 
+    top: 0;
+    padding: 30px;
+    flex-wrap: wrap;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);     
+
+   
+}
+@media(max-width:768px)
+{
+    .AdminBooksContainer{
+        background: url(../../Assets/BG2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        width: 100%;    
+        height: 100%;
+        position: sticky; 
+        top: 0;
+        padding: 30px;
+        flex-wrap: wrap;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);     
+    
+       
+    }
+}
+.AdminBookContentContainer{
+    display: flex;   
+    align-items: center;
+    padding: 30px;
+    padding-top: 50px;
+    margin: auto auto;
+    
+    
+    width: 100%;
+    
+    flex-direction:column;
+   
+}
+.rowContainer{
+    display: flex;
+}
+.addBookDisplay{
+    display: flex;
+}
